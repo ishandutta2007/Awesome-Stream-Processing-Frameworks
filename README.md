@@ -1,6 +1,6 @@
 # Awesome-Stream-Processing-Frameworks
 
-# Top Stream Processing Frameworks Ecosystem
+## Top Stream Processing Frameworks Ecosystem
 
 **Curated List of SaaS Products & Open-Source GitHub Projects**  
 *Focused on Stateful Computations, Event-Time Processing & Exactly-Once Semantics*  
