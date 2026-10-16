@@ -5,7 +5,7 @@
 <p align="center">
   <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a>
   <a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
-  <a href="https://github.com/ishandutta2007/Awesome-Stream-Processing-Frameworks/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Stream-Processing-Frameworks?style=flat-square&logo=github&color=gold" alt="GitHub Stars"/></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Stream-Processing-Frameworks/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Stream-Processing-Frameworks?style=flat-square&logo=github&color=gold" alt="GitHub_Stars"/></a>
   <a href="https://github.com/ishandutta2007/Awesome-Stream-Processing-Frameworks/network/members"><img src="https://img.shields.io/github/forks/ishandutta2007/Awesome-Stream-Processing-Frameworks?style=flat-square&logo=github&color=blue" alt="GitHub Forks"/></a>
   <a href="https://github.com/ishandutta2007/Awesome-Stream-Processing-Frameworks/issues"><img src="https://img.shields.io/github/issues/ishandutta2007/Awesome-Stream-Processing-Frameworks?style=flat-square" alt="Issues"/></a>
   <a href="https://github.com/ishandutta2007/Awesome-Stream-Processing-Frameworks/blob/main/LICENSE"><img src="https://img.shields.io/badge/License-Apache--2.0-blue?style=flat-square" alt="License"/></a>
@@ -68,93 +68,93 @@ The table below compiles leading fully managed stream processing and streaming d
 
 ## 🛠️ Open-Source Stream Processing Projects
 
-Below are the most prominent open-source stream processing engines, frameworks, and libraries, **sorted descending by GitHub star count**. Each project includes a live star badge linking directly to its GitHub stargazers page.
+Below are the most prominent open-source stream processing engines, frameworks, and libraries, **sorted descending by GitHub Stars_Count**. Each project includes a live Stars_Badge linking directly to its GitHub stargazers page.
 
 ### 🌟 Enterprise Distributed Engines
 
-1. **[Pathway](https://github.com/pathwaycom/pathway)** [![GitHub stars](https://img.shields.io/github/stars/pathwaycom/pathway?style=social&color=white)](https://github.com/pathwaycom/pathway/stargazers)  
+1. **[Pathway](https://github.com/pathwaycom/pathway)** [![GitHub_Stars](https://img.shields.io/github/stars/pathwaycom/pathway?style=social&color=white)](https://github.com/pathwaycom/pathway/stargazers)  
    **High-throughput Python ETL framework for stream processing, real-time analytics, and live LLM pipelines.** Powered by a distributed Rust incremental computation engine. Provides out-of-the-box streaming joins, sliding windows, and real-time vector index updates for RAG architectures.
 
-2. **[Apache Spark](https://github.com/apache/spark)** [![GitHub stars](https://img.shields.io/github/stars/apache/spark?style=social&color=white)](https://github.com/apache/spark/stargazers)  
+2. **[Apache Spark](https://github.com/apache/spark)** [![GitHub_Stars](https://img.shields.io/github/stars/apache/spark?style=social&color=white)](https://github.com/apache/spark/stargazers)  
    **Unified analytics engine for large-scale data processing with Structured Streaming.** Offers a unified stream-and-batch DataFrame/Dataset API with micro-batching and continuous execution modes, RocksDB state store providers, event-time watermarking, and ACID transactions via Delta Lake.
 
-3. **[Apache Kafka (Kafka Streams)](https://github.com/apache/kafka)** [![GitHub stars](https://img.shields.io/github/stars/apache/kafka?style=social&color=white)](https://github.com/apache/kafka/stargazers)  
+3. **[Apache Kafka (Kafka Streams)](https://github.com/apache/kafka)** [![GitHub_Stars](https://img.shields.io/github/stars/apache/kafka?style=social&color=white)](https://github.com/apache/kafka/stargazers)  
    **Distributed event streaming platform with embedded client-side stream processing.** The Kafka Streams library allows building robust stateful stream processing applications directly inside standard Java/Scala microservices without deploying a dedicated cluster, featuring RocksDB local state and exactly-once processing (EOS).
 
-4. **[Apache Flink](https://github.com/apache/flink)** [![GitHub stars](https://img.shields.io/github/stars/apache/flink?style=social&color=white)](https://github.com/apache/flink/stargazers)  
+4. **[Apache Flink](https://github.com/apache/flink)** [![GitHub_Stars](https://img.shields.io/github/stars/apache/flink?style=social&color=white)](https://github.com/apache/flink/stargazers)  
    **The industry standard framework for distributed stateful stream processing over unbounded data.** Provides true event-driven stream computation, sub-second latency, Chandy-Lamport distributed checkpointing, savepoints for zero-downtime upgrades, DataStream APIs, Table API, and streaming SQL.
 
-5. **[Vector](https://github.com/vectordotdev/vector)** [![GitHub stars](https://img.shields.io/github/stars/vectordotdev/vector?style=social&color=white)](https://github.com/vectordotdev/vector/stargazers)  
+5. **[Vector](https://github.com/vectordotdev/vector)** [![GitHub_Stars](https://img.shields.io/github/stars/vectordotdev/vector?style=social&color=white)](https://github.com/vectordotdev/vector/stargazers)  
    **Ultra-high-performance observability data pipeline and stream processor.** Engineered in Rust for extreme memory safety and throughput. Collects, enriches, transforms (via Vector Remap Language - VRL), and routes massive streams of logs, metrics, and event data with on-disk buffering.
 
-6. **[NATS JetStream](https://github.com/nats-io/nats-server)** [![GitHub stars](https://img.shields.io/github/stars/nats-io/nats-server?style=social&color=white)](https://github.com/nats-io/nats-server/stargazers)  
+6. **[NATS JetStream](https://github.com/nats-io/nats-server)** [![GitHub_Stars](https://img.shields.io/github/stars/nats-io/nats-server?style=social&color=white)](https://github.com/nats-io/nats-server/stargazers)  
    **Cloud-native messaging system with built-in streaming persistence and processing semantics.** Written in Go for ultra-low latency and tiny resource footprints. JetStream adds persistent streams, message deduplication, at-least-once and exactly-once consumer deliveries, and distributed KV/Object storage.
 
-7. **[Apache Pulsar](https://github.com/apache/pulsar)** [![GitHub stars](https://img.shields.io/github/stars/apache/pulsar?style=social&color=white)](https://github.com/apache/pulsar/stargazers)  
+7. **[Apache Pulsar](https://github.com/apache/pulsar)** [![GitHub_Stars](https://img.shields.io/github/stars/apache/pulsar?style=social&color=white)](https://github.com/apache/pulsar/stargazers)  
    **Cloud-native distributed pub-sub messaging and streaming platform.** Decouples compute from storage via Apache BookKeeper and object tiers (S3/GCS). Features native multi-tenancy, geo-replication, Pulsar Functions for serverless event transformations, and Pulsar IO connectors.
 
-8. **[Redpanda Connect (formerly Benthos)](https://github.com/redpanda-data/connect)** [![GitHub stars](https://img.shields.io/github/stars/redpanda-data/connect?style=social&color=white)](https://github.com/redpanda-data/connect/stargazers)  
+8. **[Redpanda Connect (formerly Benthos)](https://github.com/redpanda-data/connect)** [![GitHub_Stars](https://img.shields.io/github/stars/redpanda-data/connect?style=social&color=white)](https://github.com/redpanda-data/connect/stargazers)  
    **Resilient, single-binary stream processor with 200+ out-of-the-box connectors.** Configured declaratively with Bloblang data mapping language. Excels at multiplexing, enriching, formatting, and filtering streaming data across Kafka, AWS, GCP, Redis, and relational databases.
 
-9. **[Apache Beam](https://github.com/apache/beam)** [![GitHub stars](https://img.shields.io/github/stars/apache/beam?style=social&color=white)](https://github.com/apache/beam/stargazers)  
+9. **[Apache Beam](https://github.com/apache/beam)** [![GitHub_Stars](https://img.shields.io/github/stars/apache/beam?style=social&color=white)](https://github.com/apache/beam/stargazers)  
    **Unified, portable programming model for batch and streaming pipelines.** Write pipeline logic once in Java, Python, or Go, and execute across multiple distributed runners including Apache Flink, Apache Spark, and Google Cloud Dataflow without refactoring pipeline semantics.
 
-10. **[Apache Storm](https://github.com/apache/storm)** [![GitHub stars](https://img.shields.io/github/stars/apache/storm?style=social&color=white)](https://github.com/apache/storm/stargazers)  
+10. **[Apache Storm](https://github.com/apache/storm)** [![GitHub_Stars](https://img.shields.io/github/stars/apache/storm?style=social&color=white)](https://github.com/apache/storm/stargazers)  
     **Pioneering distributed real-time computation system.** Processes streams using directed acyclic graph (DAG) topologies composed of Spouts (data sources) and Bolts (processing logic), delivering low-latency stream transformations and distributed RPC.
 
-11. **[Hazelcast Platform](https://github.com/hazelcast/hazelcast)** [![GitHub stars](https://img.shields.io/github/stars/hazelcast/hazelcast?style=social&color=white)](https://github.com/hazelcast/hazelcast/stargazers)  
+11. **[Hazelcast Platform](https://github.com/hazelcast/hazelcast)** [![GitHub_Stars](https://img.shields.io/github/stars/hazelcast/hazelcast?style=social&color=white)](https://github.com/hazelcast/hazelcast/stargazers)  
     **Unified in-memory computing platform combining memory grid storage with the Hazelcast Jet streaming engine.** Executes greenfield streaming pipelines with sub-millisecond latencies, continuous SQL queries, and unified in-memory data lookups.
 
-12. **[Apache Heron](https://github.com/apache/incubator-heron)** [![GitHub stars](https://img.shields.io/github/stars/apache/incubator-heron?style=social&color=white)](https://github.com/apache/incubator-heron/stargazers)  
+12. **[Apache Heron](https://github.com/apache/incubator-heron)** [![GitHub_Stars](https://img.shields.io/github/stars/apache/incubator-heron?style=social&color=white)](https://github.com/apache/incubator-heron/stargazers)  
     **Cloud-native real-time stream processing engine developed at Twitter as Storm's successor.** Provides process-based isolation for topology components, predictable memory utilization, resource scheduling via Kubernetes and Nomad, and backward compatibility with Storm APIs.
 
-13. **[Apache Samza](https://github.com/apache/samza)** [![GitHub stars](https://img.shields.io/github/stars/apache/samza?style=social&color=white)](https://github.com/apache/samza/stargazers)  
+13. **[Apache Samza](https://github.com/apache/samza)** [![GitHub_Stars](https://img.shields.io/github/stars/apache/samza?style=social&color=white)](https://github.com/apache/samza/stargazers)  
     **Distributed stateful stream processing framework developed at LinkedIn.** Built around Apache Kafka log partitions and Apache YARN/Mesos resource allocation, using RocksDB for co-located partition-level state management.
 
 ---
 
 ### ⚡ Streaming SQL & Incremental Materialized Views
 
-1. **[RisingWave](https://github.com/risingwavelabs/risingwave)** [![GitHub stars](https://img.shields.io/github/stars/risingwavelabs/risingwave?style=social&color=white)](https://github.com/risingwavelabs/risingwave/stargazers)  
+1. **[RisingWave](https://github.com/risingwavelabs/risingwave)** [![GitHub_Stars](https://img.shields.io/github/stars/risingwavelabs/risingwave?style=social&color=white)](https://github.com/risingwavelabs/risingwave/stargazers)  
    **Distributed SQL streaming database with PostgreSQL wire compatibility and disaggregated storage.** Written in Rust, RisingWave unifies stream ingestion, stateful joins, windowed aggregations, and serving into a single system. Stores internal state in cloud object storage (S3), enabling fast recovery and dynamic horizontal scaling.
 
-2. **[Materialize](https://github.com/MaterializeInc/materialize)** [![GitHub stars](https://img.shields.io/github/stars/MaterializeInc/materialize?style=social&color=white)](https://github.com/MaterializeInc/materialize/stargazers)  
+2. **[Materialize](https://github.com/MaterializeInc/materialize)** [![GitHub_Stars](https://img.shields.io/github/stars/MaterializeInc/materialize?style=social&color=white)](https://github.com/MaterializeInc/materialize/stargazers)  
    **Streaming database that maintains complex SQL queries incrementally.** Powered by Timely Dataflow and Differential Dataflow, Materialize continuously recalculates ANSI SQL query views as upstream events arrive from Kafka and Postgres CDC, serving queries through standard PostgreSQL drivers.
 
-3. **[Timeplus Proton](https://github.com/timeplus-io/proton)** [![GitHub stars](https://img.shields.io/github/stars/timeplus-io/proton?style=social&color=white)](https://github.com/timeplus-io/proton/stargazers)  
+3. **[Timeplus Proton](https://github.com/timeplus-io/proton)** [![GitHub_Stars](https://img.shields.io/github/stars/timeplus-io/proton?style=social&color=white)](https://github.com/timeplus-io/proton/stargazers)  
    **Lightweight, C++ stream processing SQL engine powered by ClickHouse core components.** Single binary under 500MB with SIMD vectorization. Capable of handling 90+ Million events/sec with 4ms end-to-end latency, unified historical and streaming queries, and incremental materialized views.
 
-4. **[Feldera](https://github.com/feldera/feldera)** [![GitHub stars](https://img.shields.io/github/stars/feldera/feldera?style=social&color=white)](https://github.com/feldera/feldera/stargazers)  
+4. **[Feldera](https://github.com/feldera/feldera)** [![GitHub_Stars](https://img.shields.io/github/stars/feldera/feldera?style=social&color=white)](https://github.com/feldera/feldera/stargazers)  
    **Incremental computation engine that evaluates arbitrary complex SQL programs continuously.** Processes millions of events per second on commodity hardware, computing incremental updates for joins, windowing, aggregations, and recursive SQL queries over continuous data deltas.
 
 ---
 
 ### 🐍 Python-First Stream Frameworks
 
-1. **[Bytewax](https://github.com/bytewax/bytewax)** [![GitHub stars](https://img.shields.io/github/stars/bytewax/bytewax?style=social&color=white)](https://github.com/bytewax/bytewax/stargazers)  
+1. **[Bytewax](https://github.com/bytewax/bytewax)** [![GitHub_Stars](https://img.shields.io/github/stars/bytewax/bytewax?style=social&color=white)](https://github.com/bytewax/bytewax/stargazers)  
    **Python-native stateful stream processing framework powered by a Timely Dataflow Rust runtime.** Provides an intuitive Python API (`map`, `filter`, `fold_window`, `join`) combined with Rust's thread-level performance, making it a premier choice for real-time ML feature pipelines and AI agent workflows.
 
-2. **[Quix Streams](https://github.com/quixio/quix-streams)** [![GitHub stars](https://img.shields.io/github/stars/quixio/quix-streams?style=social&color=white)](https://github.com/quixio/quix-streams/stargazers)  
+2. **[Quix Streams](https://github.com/quixio/quix-streams)** [![GitHub_Stars](https://img.shields.io/github/stars/quixio/quix-streams?style=social&color=white)](https://github.com/quixio/quix-streams/stargazers)  
    **Pure Python streaming library with pandas-like syntax designed for Kafka.** Features RocksDB-backed local state, tumbling/hopping/sliding windows, consumer auto-recovery, and seamless serialization for JSON, Avro, and Protobuf.
 
 ---
 
 ### 📦 Lightweight, Embedded & Edge Processors
 
-1. **[Fluvio](https://github.com/fluvio-community/fluvio)** [![GitHub stars](https://img.shields.io/github/stars/fluvio-community/fluvio?style=social&color=white)](https://github.com/fluvio-community/fluvio/stargazers)  
+1. **[Fluvio](https://github.com/fluvio-community/fluvio)** [![GitHub_Stars](https://img.shields.io/github/stars/fluvio-community/fluvio?style=social&color=white)](https://github.com/fluvio-community/fluvio/stargazers)  
    **Lean, programmable distributed stream processing platform written in Rust.** Utilizes WebAssembly (WASM) SmartModules for inline stream transformations, filtering, and protocol translation at the broker edge.
 
-2. **[Memphis.dev](https://github.com/superstreamlabs/memphis)** [![GitHub stars](https://img.shields.io/github/stars/superstreamlabs/memphis?style=social&color=white)](https://github.com/superstreamlabs/memphis/stargazers)  
+2. **[Memphis.dev](https://github.com/superstreamlabs/memphis)** [![GitHub_Stars](https://img.shields.io/github/stars/superstreamlabs/memphis?style=social&color=white)](https://github.com/superstreamlabs/memphis/stargazers)  
    **Next-generation streaming broker and event processing platform.** Offers intuitive developer ergonomics, built-in schema drift prevention, Dead Letter Stations (DLS) for poisoned events, and real-time observability.
 
-3. **[LF Edge eKuiper](https://github.com/lf-edge/ekuiper)** [![GitHub stars](https://img.shields.io/github/stars/lf-edge/ekuiper?style=social&color=white)](https://github.com/lf-edge/ekuiper/stargazers)  
+3. **[LF Edge eKuiper](https://github.com/lf-edge/ekuiper)** [![GitHub_Stars](https://img.shields.io/github/stars/lf-edge/ekuiper?style=social&color=white)](https://github.com/lf-edge/ekuiper/stargazers)  
    **Ultra-lightweight IoT edge stream processing engine.** Maintained under the Linux Foundation Edge. Requires less than 10MB of memory, supports SQL-based rule engines, MQTT/OPC-UA/Modbus inputs, and edge-to-cloud synchronization.
 
 ---
 
 ### 🔧 Management & Ecosystem Tooling
 
-1. **[Apache StreamPark](https://github.com/apache/streampark)** [![GitHub stars](https://img.shields.io/github/stars/apache/streampark?style=social&color=white)](https://github.com/apache/streampark/stargazers)  
+1. **[Apache StreamPark](https://github.com/apache/streampark)** [![GitHub_Stars](https://img.shields.io/github/stars/apache/streampark?style=social&color=white)](https://github.com/apache/streampark/stargazers)  
    **Enterprise stream processing application development framework and management platform.** Simplifies deploying, monitoring, checkpointing, and lifecycle management for Apache Flink and Apache Spark streaming jobs on Kubernetes and YARN.
 
 ---
@@ -178,7 +178,7 @@ Contributions are welcome and appreciated! Follow these steps to submit addition
 
 1. **Fork the repository** to your GitHub account.
 2. **Add or modify entries** in `README.md` following the established table or categorized formats.
-3. **Include verified data**: Project name, official website/repo link, live GitHub star badge, license, and concrete architecture descriptions.
+3. **Include verified data**: Project name, official website/repo link, live GitHub Stars_Badge, license, and concrete architecture descriptions.
 4. **Submit a Pull Request** with a descriptive title and summary of changes.
 
 ---
